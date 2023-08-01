@@ -11,13 +11,27 @@
         <h1>Hungry Nerd</h1>
         <p>Delicious Food for Engineering Students</p>
     </header>
-
+    <button id="chatbotToggleBtn" onclick="toggleChatbot()">Minimize Chatbot</button>
     <iframe
     allow="microphone;"
     width="350"
     height="430"
     src="https://console.dialogflow.com/api-client/demo/embedded/360178b2-84fd-4d29-b93e-b2cfab1de69e">
    </iframe>
+   <script>
+        function toggleChatbot() {
+            var iframe = document.getElementById('chatbotIframe');
+            var button = document.getElementById('chatbotToggleBtn');
+            
+            if (iframe.style.display === 'none') {
+                iframe.style.display = 'block';
+                button.innerText = 'Minimize Chatbot';
+            } else {
+                iframe.style.display = 'none';
+                button.innerText = 'Maximize Chatbot';
+            }
+        }
+    </script>
 
     <section class="menu">
         <div class="slider">
