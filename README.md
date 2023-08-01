@@ -1,7 +1,6 @@
 https://rajshree2524.github.io/chatbot/
 Chat Bot - Hungry Nerds
-Introduction
-This repository contains the code for creating a Chat Bot called "Hungry Nerds." The Chat Bot is built using Natural Language Processing (NLP) techniques to understand and respond to user queries and requests.
+ The Chat Bot is built using Natural Language Processing (NLP) techniques to understand and respond to user queries and requests.
 
 Natural Language Processing (NLP)
 NLP is a subfield of artificial intelligence that focuses on the interaction between computers and human languages. It enables the Chat Bot to understand user input in a more human-like manner, allowing for more natural and contextually relevant responses.
